@@ -1,17 +1,22 @@
 import "./App.css";
-import Product from "./components/profile/Profile.jsx";
+
+import Profile from "./components/profile/Profile";
+import FriendList from "./components/friend/friend-list/FriendList";
+
 import userData from "./data/userData.json";
+import friends from "./data/friends.json";
 
 function App() {
   return (
     <>
-      <Product
+      <Profile
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
         image={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends={friends} />
     </>
   );
 }

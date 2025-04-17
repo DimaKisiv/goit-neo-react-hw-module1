@@ -4,3 +4,8 @@
   padding-top: 100px;
   text-align: center;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
