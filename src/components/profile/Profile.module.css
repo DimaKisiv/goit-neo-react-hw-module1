@@ -1,0 +1,41 @@
+.section {
+  background-color: lightgrey;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.stats {
+  background-color: darkgrey;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  padding: 16px 0;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.userName {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.statsTitle {
+  font-weight: bold;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 100%;
+}
