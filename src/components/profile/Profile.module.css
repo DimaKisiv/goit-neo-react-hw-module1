@@ -1,11 +1,12 @@
 .section {
-  background-color: lightgrey;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 300px;
   margin-bottom: 100px;
+  border: 1px solid black;
+  border-radius: 8px;
 }
 
 .stats {
@@ -14,10 +15,11 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  padding: 16px 0;
+  padding: 0;
 }
 
 .avatar {
+  margin-top: 12px;
   width: 150px;
   border-radius: 50%;
   background-color: black;
@@ -39,4 +41,6 @@
   justify-content: center;
   width: 33%;
   height: 100%;
+  border: 1px solid black;
+  padding: 16px;
 }

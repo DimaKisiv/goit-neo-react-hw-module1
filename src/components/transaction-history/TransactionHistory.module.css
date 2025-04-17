@@ -1,0 +1,33 @@
+.transactions {
+  margin: auto;
+  width: 400px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 50px;
+}
+
+.transactions td,
+.transactions th {
+  border: 1px solid black;
+  padding: 0;
+}
+
+.header {
+  height: 32px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.row {
+  height: 32px;
+}
+
+.row:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.row:nth-child(odd) {
+  background-color: white;
+}
